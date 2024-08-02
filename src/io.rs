@@ -37,6 +37,9 @@ pub trait ReadBytesExt: io::Read {
     ///
     /// This method returns the same errors as [`Read::read_exact`].
     ///
+    /// If an error is returned, the reader will be left in an unspecified
+    /// state, and should not be used for additional reads.
+    ///
     /// [`Read::read_exact`]: https://doc.rust-lang.org/std/io/trait.Read.html#method.read_exact
     ///
     /// # Examples
@@ -67,6 +70,9 @@ pub trait ReadBytesExt: io::Read {
     ///
     /// This method returns the same errors as [`Read::read_exact`].
     ///
+    /// If an error is returned, the reader will be left in an unspecified
+    /// state, and should not be used for additional reads.
+    ///
     /// [`Read::read_exact`]: https://doc.rust-lang.org/std/io/trait.Read.html#method.read_exact
     ///
     /// # Examples
@@ -93,6 +99,9 @@ pub trait ReadBytesExt: io::Read {
     /// # Errors
     ///
     /// This method returns the same errors as [`Read::read_exact`].
+    ///
+    /// If an error is returned, the reader will be left in an unspecified
+    /// state, and should not be used for additional reads.
     ///
     /// [`Read::read_exact`]: https://doc.rust-lang.org/std/io/trait.Read.html#method.read_exact
     ///
@@ -121,6 +130,9 @@ pub trait ReadBytesExt: io::Read {
     ///
     /// This method returns the same errors as [`Read::read_exact`].
     ///
+    /// If an error is returned, the reader will be left in an unspecified
+    /// state, and should not be used for additional reads.
+    ///
     /// [`Read::read_exact`]: https://doc.rust-lang.org/std/io/trait.Read.html#method.read_exact
     ///
     /// # Examples
@@ -148,6 +160,9 @@ pub trait ReadBytesExt: io::Read {
     ///
     /// This method returns the same errors as [`Read::read_exact`].
     ///
+    /// If an error is returned, the reader will be left in an unspecified
+    /// state, and should not be used for additional reads.
+    ///
     /// [`Read::read_exact`]: https://doc.rust-lang.org/std/io/trait.Read.html#method.read_exact
     ///
     /// # Examples
@@ -173,6 +188,9 @@ pub trait ReadBytesExt: io::Read {
     /// # Errors
     ///
     /// This method returns the same errors as [`Read::read_exact`].
+    ///
+    /// If an error is returned, the reader will be left in an unspecified
+    /// state, and should not be used for additional reads.
     ///
     /// [`Read::read_exact`]: https://doc.rust-lang.org/std/io/trait.Read.html#method.read_exact
     ///
@@ -200,6 +218,9 @@ pub trait ReadBytesExt: io::Read {
     ///
     /// This method returns the same errors as [`Read::read_exact`].
     ///
+    /// If an error is returned, the reader will be left in an unspecified
+    /// state, and should not be used for additional reads.
+    ///
     /// [`Read::read_exact`]: https://doc.rust-lang.org/std/io/trait.Read.html#method.read_exact
     ///
     /// # Examples
@@ -225,6 +246,9 @@ pub trait ReadBytesExt: io::Read {
     /// # Errors
     ///
     /// This method returns the same errors as [`Read::read_exact`].
+    ///
+    /// If an error is returned, the reader will be left in an unspecified
+    /// state, and should not be used for additional reads.
     ///
     /// [`Read::read_exact`]: https://doc.rust-lang.org/std/io/trait.Read.html#method.read_exact
     ///
@@ -252,6 +276,9 @@ pub trait ReadBytesExt: io::Read {
     ///
     /// This method returns the same errors as [`Read::read_exact`].
     ///
+    /// If an error is returned, the reader will be left in an unspecified
+    /// state, and should not be used for additional reads.
+    ///
     /// [`Read::read_exact`]: https://doc.rust-lang.org/std/io/trait.Read.html#method.read_exact
     ///
     /// # Examples
@@ -277,6 +304,9 @@ pub trait ReadBytesExt: io::Read {
     /// # Errors
     ///
     /// This method returns the same errors as [`Read::read_exact`].
+    ///
+    /// If an error is returned, the reader will be left in an unspecified
+    /// state, and should not be used for additional reads.
     ///
     /// [`Read::read_exact`]: https://doc.rust-lang.org/std/io/trait.Read.html#method.read_exact
     ///
@@ -304,6 +334,9 @@ pub trait ReadBytesExt: io::Read {
     ///
     /// This method returns the same errors as [`Read::read_exact`].
     ///
+    /// If an error is returned, the reader will be left in an unspecified
+    /// state, and should not be used for additional reads.
+    ///
     /// [`Read::read_exact`]: https://doc.rust-lang.org/std/io/trait.Read.html#method.read_exact
     ///
     /// # Examples
@@ -330,6 +363,9 @@ pub trait ReadBytesExt: io::Read {
     ///
     /// This method returns the same errors as [`Read::read_exact`].
     ///
+    /// If an error is returned, the reader will be left in an unspecified
+    /// state, and should not be used for additional reads.
+    ///
     /// [`Read::read_exact`]: https://doc.rust-lang.org/std/io/trait.Read.html#method.read_exact
     ///
     /// # Examples
@@ -355,6 +391,9 @@ pub trait ReadBytesExt: io::Read {
     /// # Errors
     ///
     /// This method returns the same errors as [`Read::read_exact`].
+    ///
+    /// If an error is returned, the reader will be left in an unspecified
+    /// state, and should not be used for additional reads.
     ///
     /// [`Read::read_exact`]: https://doc.rust-lang.org/std/io/trait.Read.html#method.read_exact
     ///
@@ -385,6 +424,9 @@ pub trait ReadBytesExt: io::Read {
     ///
     /// This method returns the same errors as [`Read::read_exact`].
     ///
+    /// If an error is returned, the reader will be left in an unspecified
+    /// state, and should not be used for additional reads.
+    ///
     /// [`Read::read_exact`]: https://doc.rust-lang.org/std/io/trait.Read.html#method.read_exact
     ///
     /// # Examples
@@ -411,6 +453,9 @@ pub trait ReadBytesExt: io::Read {
     ///
     /// This method returns the same errors as [`Read::read_exact`].
     ///
+    /// If an error is returned, the reader will be left in an unspecified
+    /// state, and should not be used for additional reads.
+    ///
     /// [`Read::read_exact`]: https://doc.rust-lang.org/std/io/trait.Read.html#method.read_exact
     ///
     /// # Examples
@@ -435,6 +480,9 @@ pub trait ReadBytesExt: io::Read {
     /// # Errors
     ///
     /// This method returns the same errors as [`Read::read_exact`].
+    ///
+    /// If an error is returned, the reader will be left in an unspecified
+    /// state, and should not be used for additional reads.
     ///
     /// [`Read::read_exact`]: https://doc.rust-lang.org/std/io/trait.Read.html#method.read_exact
     ///
@@ -478,6 +526,9 @@ pub trait ReadBytesExt: io::Read {
     ///
     /// This method returns the same errors as [`Read::read_exact`].
     ///
+    /// If an error is returned, the reader will be left in an unspecified
+    /// state, and should not be used for additional reads.
+    ///
     /// [`Read::read_exact`]: https://doc.rust-lang.org/std/io/trait.Read.html#method.read_exact
     ///
     /// # Examples
@@ -508,6 +559,9 @@ pub trait ReadBytesExt: io::Read {
     /// # Errors
     ///
     /// This method returns the same errors as [`Read::read_exact`].
+    ///
+    /// If an error is returned, the reader will be left in an unspecified
+    /// state, and should not be used for additional reads.
     ///
     /// [`Read::read_exact`]: https://doc.rust-lang.org/std/io/trait.Read.html#method.read_exact
     ///
@@ -542,6 +596,9 @@ pub trait ReadBytesExt: io::Read {
     /// # Errors
     ///
     /// This method returns the same errors as [`Read::read_exact`].
+    ///
+    /// If an error is returned, the reader will be left in an unspecified
+    /// state, and should not be used for additional reads.
     ///
     /// [`Read::read_exact`]: https://doc.rust-lang.org/std/io/trait.Read.html#method.read_exact
     ///
@@ -578,6 +635,9 @@ pub trait ReadBytesExt: io::Read {
     ///
     /// This method returns the same errors as [`Read::read_exact`].
     ///
+    /// If an error is returned, the reader will be left in an unspecified
+    /// state, and should not be used for additional reads.
+    ///
     /// [`Read::read_exact`]: https://doc.rust-lang.org/std/io/trait.Read.html#method.read_exact
     ///
     /// # Examples
@@ -612,6 +672,9 @@ pub trait ReadBytesExt: io::Read {
     /// # Errors
     ///
     /// This method returns the same errors as [`Read::read_exact`].
+    ///
+    /// If an error is returned, the reader will be left in an unspecified
+    /// state, and should not be used for additional reads.
     ///
     /// [`Read::read_exact`]: https://doc.rust-lang.org/std/io/trait.Read.html#method.read_exact
     ///
@@ -650,6 +713,9 @@ pub trait ReadBytesExt: io::Read {
     /// # Errors
     ///
     /// This method returns the same errors as [`Read::read_exact`].
+    ///
+    /// If an error is returned, the reader will be left in an unspecified
+    /// state, and should not be used for additional reads.
     ///
     /// [`Read::read_exact`]: https://doc.rust-lang.org/std/io/trait.Read.html#method.read_exact
     ///
@@ -697,6 +763,9 @@ pub trait ReadBytesExt: io::Read {
     ///
     /// This method returns the same errors as [`Read::read_exact`].
     ///
+    /// If an error is returned, the reader will be left in an unspecified
+    /// state, and should not be used for additional reads.
+    ///
     /// [`Read::read_exact`]: https://doc.rust-lang.org/std/io/trait.Read.html#method.read_exact
     ///
     /// # Examples
@@ -727,6 +796,9 @@ pub trait ReadBytesExt: io::Read {
     /// # Errors
     ///
     /// This method returns the same errors as [`Read::read_exact`].
+    ///
+    /// If an error is returned, the reader will be left in an unspecified
+    /// state, and should not be used for additional reads.
     ///
     /// [`Read::read_exact`]: https://doc.rust-lang.org/std/io/trait.Read.html#method.read_exact
     ///
@@ -763,6 +835,9 @@ pub trait ReadBytesExt: io::Read {
     ///
     /// This method returns the same errors as [`Read::read_exact`].
     ///
+    /// If an error is returned, the reader will be left in an unspecified
+    /// state, and should not be used for additional reads.
+    ///
     /// [`Read::read_exact`]: https://doc.rust-lang.org/std/io/trait.Read.html#method.read_exact
     ///
     /// # Examples
@@ -797,6 +872,9 @@ pub trait ReadBytesExt: io::Read {
     /// # Errors
     ///
     /// This method returns the same errors as [`Read::read_exact`].
+    ///
+    /// If an error is returned, the reader will be left in an unspecified
+    /// state, and should not be used for additional reads.
     ///
     /// [`Read::read_exact`]: https://doc.rust-lang.org/std/io/trait.Read.html#method.read_exact
     ///
@@ -835,6 +913,9 @@ pub trait ReadBytesExt: io::Read {
     /// # Errors
     ///
     /// This method returns the same errors as [`Read::read_exact`].
+    ///
+    /// If an error is returned, the reader will be left in an unspecified
+    /// state, and should not be used for additional reads.
     ///
     /// [`Read::read_exact`]: https://doc.rust-lang.org/std/io/trait.Read.html#method.read_exact
     ///
@@ -876,6 +957,9 @@ pub trait ReadBytesExt: io::Read {
     /// # Errors
     ///
     /// This method returns the same errors as [`Read::read_exact`].
+    ///
+    /// If an error is returned, the reader will be left in an unspecified
+    /// state, and should not be used for additional reads.
     ///
     /// [`Read::read_exact`]: https://doc.rust-lang.org/std/io/trait.Read.html#method.read_exact
     ///
@@ -922,6 +1006,9 @@ pub trait ReadBytesExt: io::Read {
     ///
     /// This method returns the same errors as [`Read::read_exact`].
     ///
+    /// If an error is returned, the reader will be left in an unspecified
+    /// state, and should not be used for additional reads.
+    ///
     /// [`Read::read_exact`]: https://doc.rust-lang.org/std/io/trait.Read.html#method.read_exact
     ///
     /// # Examples
@@ -961,6 +1048,9 @@ pub trait ReadBytesExt: io::Read {
     /// # Errors
     ///
     /// This method returns the same errors as [`Read::read_exact`].
+    ///
+    /// If an error is returned, the reader will be left in an unspecified
+    /// state, and should not be used for additional reads.
     ///
     /// [`Read::read_exact`]: https://doc.rust-lang.org/std/io/trait.Read.html#method.read_exact
     ///
@@ -1012,6 +1102,9 @@ pub trait ReadBytesExt: io::Read {
     /// # Errors
     ///
     /// This method returns the same errors as [`Read::read_exact`].
+    ///
+    /// If an error is returned, the reader will be left in an unspecified
+    /// state, and should not be used for additional reads.
     ///
     /// [`Read::read_exact`]: https://doc.rust-lang.org/std/io/trait.Read.html#method.read_exact
     ///
